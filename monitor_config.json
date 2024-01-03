@@ -1,0 +1,17 @@
+{
+    "runtime_parameter":{
+        "scan_interval": 10,
+        "active_subprocess": false,
+        "timeout_times_threshold": 10,
+        "timeout_ping_threshold": 100
+    },
+    "switch_to_check":[
+        "10.20.30.0",
+        "192.168.1.0"
+    ],
+    "dat_file": "./log_timeout.dat",
+    "output":{
+        "path": "./output/",
+        "filename": "monitorlog.dat"
+    }
+}

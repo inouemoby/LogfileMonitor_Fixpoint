@@ -1,0 +1,58 @@
+{
+    "ip_addresses": [
+        {
+            "ip": "10.20.30.1",
+            "expected_ping": 20,
+            "packet_loss": 85
+        },
+        {
+            "ip": "10.20.30.2",
+            "expected_ping": 15,
+            "packet_loss": 2
+        },
+        {
+            "ip": "10.20.30.3",
+            "expected_ping": 10,
+            "packet_loss": 99
+        },
+        {
+            "ip": "10.20.30.4",
+            "expected_ping": 100,
+            "packet_loss": 80
+        },
+        {
+            "ip": "10.20.30.5",
+            "expected_ping": 10,
+            "packet_loss": 90
+        },
+        {
+            "ip": "10.20.30.6",
+            "expected_ping": 5,
+            "packet_loss": 100
+        },
+        {
+            "ip": "192.168.1.1",
+            "expected_ping": 15,
+            "packet_loss": 0
+        },
+        {
+            "ip": "192.168.1.2",
+            "expected_ping": 10,
+            "packet_loss": 1
+        },
+        {
+            "ip": "192.168.1.3",
+            "expected_ping": 30,
+            "packet_loss": 0
+        }
+    ],
+    "interval": {
+        "generate": 10,
+        "store": 100
+    },
+    "timeout_switch": {
+        "10.20.30.0": true,
+        "192.168.1.0": false
+    }
+  }
+  
