@@ -119,10 +119,10 @@ def generate_logs():
             entry = generate_log_entry(ip_info)
             log.append(entry)
 
-            # if entry.ping == -1:
-            #     print(f"{entry.timestamp},{ip_info.ip},-")
-            # else:
-            #     print(f"{entry.timestamp},{ip_info.ip},{entry.ping}")
+            if entry.ping == -1:
+                print(f"{entry.timestamp},{ip_info.ip},-")
+            else:
+                print(f"{entry.timestamp},{ip_info.ip},{entry.ping}")
 
         time.sleep(global_interval.generate)
 

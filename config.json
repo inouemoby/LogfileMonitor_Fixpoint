@@ -3,12 +3,12 @@
         {
             "ip": "10.20.30.1",
             "expected_ping": 20,
-            "packet_loss": 85
+            "packet_loss": 70
         },
         {
             "ip": "10.20.30.2",
             "expected_ping": 15,
-            "packet_loss": 2
+            "packet_loss": 50
         },
         {
             "ip": "10.20.30.3",
@@ -23,12 +23,12 @@
         {
             "ip": "10.20.30.5",
             "expected_ping": 10,
-            "packet_loss": 90
+            "packet_loss": 60
         },
         {
             "ip": "10.20.30.6",
             "expected_ping": 5,
-            "packet_loss": 100
+            "packet_loss": 95
         },
         {
             "ip": "192.168.1.1",
@@ -51,7 +51,7 @@
         "store": 100
     },
     "timeout_switch": {
-        "10.20.30.0": true,
+        "10.20.30.0": false,
         "192.168.1.0": false
     }
   }
